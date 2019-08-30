@@ -1,6 +1,8 @@
 def checkMagazine(magazine, note):
     if len(magazine) < len(note):
         print("No")
+        # Program would not stop if not return
+        return None
 
     note_dict = {}
     for word in note:
